@@ -1,0 +1,25 @@
+body{
+display: flex;
+justify-content: center;
+align-items: center;
+}
+
+
+#logo{
+    background-color: blue;
+    width: 255px;
+    height: 300px;
+    border-right: 45px solid blue;
+    border-radius: 20px;
+    position: relative;
+    overflow: hidden;
+    margin-top: 50px;
+    span{
+        &.verticle{}
+
+        &.horizontal{}
+
+        &.diogonal{}
+
+    }
+}

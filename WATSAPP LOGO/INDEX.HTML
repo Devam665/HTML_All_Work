@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Watsapp logo</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <style> 
+        .whight-circle{
+            position: relative;
+            width: 80px;
+            height: 80px;
+            border-radius: 40px;
+            background-color: #ffffff;
+            box-shadow: 2px 2px 3px 2px rgb(0,0,0,0.3);
+        }
+        .green-circle{
+            width: 70px;
+            height: 70px;
+            border-radius: 35px;
+            background-color: #3ac371;
+            position: relative;
+            left: 50%;
+            top: 50%;
+            transform: translate(-50%,-50%);
+        } 
+        .whight-circle i {
+             position: absolute;
+            left: 19px;
+            top: 17px;
+            font-size: 41px;
+            color: #ffffff;
+            transform: rotate(-3deg);
+        } 
+        
+        .whight-circle:before{
+            position: absolute;
+            content: "";
+            top: 65px;
+            left: -15px;
+            border-width: 20px;
+            border-style: solid;
+            border-color: transparent #ffffff transparent transparent;
+            transform: rotate(-50deg) rotateX(-55deg);
+        }
+
+        .whight-circle:after {
+            position: absolute;
+            content: "";
+            top: 63px;
+            left: -4px;
+            border-width: 15px;
+            border-style: solid;
+            border-color: transparent #3ac371 transparent transparent;
+            transform: rotate(-51deg) rotateX(-50deg);
+        }
+
+     </style>    
+</head>
+<body>
+    <div class="whight-circle">
+        <div class="green-circle">
+            <i class="fa fa-phone"></i>
+        </div>
+    </div>
+</body>
+</html>

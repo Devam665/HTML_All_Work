@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Number Guessing Game</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="game-container">
+        <div class="image-section">
+            <img id="rotating-image" src="https://example.com/initial-image.jpg" alt="Rotating Image">
+        </div>
+        <div class="game-section">
+            <h1>Guess the Number!</h1>
+            <p>Guess a number between 1 and 100</p>
+            <input type="number" id="guess" min="1" max="100" placeholder="Enter your guess">
+            <button id="submit">Submit Guess</button>
+            <p id="message"></p>
+            <p>Attempts left: <span id="attempts">10</span></p>
+        </div>
+        <div class="score-section">
+            <p>Your score: <span id="score">0</span></p>
+            <button id="restart" style="display: none;">Restart Game</button>
+            <div id="emoji" class="emoji"></div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
